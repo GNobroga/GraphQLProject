@@ -4,8 +4,6 @@ namespace GraphQLProject.Interfaces;
 
 public interface IMenuRepository 
 {
-    List<Menu> Menus { get; }
-
     List<Menu> GetAll();
 
     Menu? GetById(int id);
